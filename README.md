@@ -1,3 +1,5 @@
+Live-Site Link (on Github Pages): https://seraph9.github.io/Facts_n_Flags/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
