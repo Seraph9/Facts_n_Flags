@@ -76,7 +76,7 @@ function App() {
           <Route path="/Wyoming" component={Wyoming} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/Facts_n_Flags" component={Home} />
         </Switch>
       </BrowserRouter>
     </>
