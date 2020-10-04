@@ -49,7 +49,7 @@ export const Ohio = props => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -101,7 +101,7 @@ export const Oklahoma = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -153,7 +153,7 @@ export const Oregon = () => {
             </table>
             <img alt={stateName} src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg" className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )

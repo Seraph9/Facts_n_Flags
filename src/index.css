@@ -36,6 +36,18 @@ th, td {
   text-decoration: none;
 }
 
+.navlinks {
+  margin-top: 8px;
+  margin-right: 8px;
+  text-decoration: none;
+  color: black
+}
+
+.navlinks:hover {
+  text-decoration: none;
+  color: red
+}
+
 .home-link {
   text-align: center;
 }

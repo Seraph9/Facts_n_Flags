@@ -48,7 +48,7 @@ export const Maine = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -99,7 +99,7 @@ export const Maryland = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -150,7 +150,7 @@ export const Massachusetts = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -201,7 +201,7 @@ export const Michigan = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -252,7 +252,7 @@ export const Minnesota = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -303,7 +303,7 @@ export const Mississippi = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -354,7 +354,7 @@ export const Missouri = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
@@ -405,7 +405,7 @@ export const Montana = () => {
             </table>
             <img alt={stateName} src={stateFlag} className="flag" />
             <div className="home-link">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )

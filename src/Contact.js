@@ -24,7 +24,7 @@ function Contact() {
                 <a href='https://github.com/Seraph9'><i style={contactStyles.icons} className="devicon-github-plain-wordmark colored" /></a>
             </div>
             <div className="contact-home">
-                <NavLink to="/" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
+                <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
             </div>
         </>
     )
