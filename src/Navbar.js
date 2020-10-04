@@ -9,7 +9,7 @@ function Navbar() {
             </button>
             <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
                 <div className='navbar-nav'>
-                    <a className='nav-link active' href='/'>Home <span className='sr-only'>(current)</span></a>
+                    <a className='nav-link active' href='/Facts_n_Flags'>Home <span className='sr-only'>(current)</span></a>
                     <a className='nav-link' href='/about'>About</a>
                     <a className='nav-link' href='/contact'>Contact</a>
                 </div>
