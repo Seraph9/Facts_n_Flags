@@ -1,6 +1,23 @@
 /* TODO Add site wide styles */
 h1 {
   text-align: center;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: midnightblue;
+  height: 150px;
+}
+
+.header_title {
+  color: white
+}
+
+.navbar {
+  background-color: maroon;
 }
 
 table {
