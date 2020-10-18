@@ -1,4 +1,8 @@
 /* TODO Add site wide styles */
+.home_page {
+  background-image: url('state_flags_map.jpg');
+}
+
 h1 {
   text-align: center;
 
