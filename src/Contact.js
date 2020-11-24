@@ -20,8 +20,8 @@ function Contact() {
     return (
         <>
             <div style={contactStyles.container}>
-                <a href='https://www.linkedin.com/in/abdullah-wafy/'><i style={contactStyles.icons} className="devicon-linkedin-plain-wordmark colored" /></a>
-                <a href='https://github.com/Seraph9'><i style={contactStyles.icons} className="devicon-github-plain-wordmark colored" /></a>
+                <a href='https://www.linkedin.com/in/abdullah-wafy/' target='__blank'><i style={contactStyles.icons} className="devicon-linkedin-plain-wordmark colored" /></a>
+                <a href='https://github.com/Seraph9' target='__blank'><i style={contactStyles.icons} className="devicon-github-plain-wordmark colored" /></a>
             </div>
             <div className="contact-home">
                 <NavLink to="/Facts_n_Flags" activeClassName="is-selected" exact={true}>Go back home page!</NavLink>
