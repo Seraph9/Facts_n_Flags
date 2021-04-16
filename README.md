@@ -1,5 +1,10 @@
 Live-Site Link (on Github Pages): https://seraph9.github.io/Facts_n_Flags/
 
+* For local development, delete the "homepage" property in the package.json file (which is necessary for Github Pages deployment in production) and then do npm start (ctrl + c if already running and do npm start again) and then make sure to put the path `/Facts_n_Flags` after `http://localhost:3000/` since that's what's specified in `App.js` as so: `<Route exact path="/Facts_n_Flags" component={Home} />`.
+* The sample free APIs have changed from ReST to GraphQL: https://sampleapis.com/api-list/the-states
+
+* just **npm run deploy** command for updating live site, after git adding and committing and pushing to master repo!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 
 import Navbar from '../Navbar';
+import { baseURL as URL } from './constants';
 
 export const Kansas = props => {
     let [stateName, setStateName] = useState();
@@ -11,7 +12,7 @@ export const Kansas = props => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[15].name;
@@ -63,7 +64,7 @@ export const Kentucky = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[16].name;

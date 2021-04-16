@@ -11,7 +11,7 @@ export const SouthCarolina = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[39].name;
@@ -62,7 +62,7 @@ export const SouthDakota = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[40].name;

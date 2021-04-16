@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 
 import Navbar from '../Navbar';
+import { baseURL as URL } from './constants';
 
 export const Nebraska = () => {
     let [stateName, setStateName] = useState();
@@ -11,7 +12,7 @@ export const Nebraska = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[26].name;
@@ -62,7 +63,7 @@ export const Nevada = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[27].name;
@@ -113,7 +114,7 @@ export const NewHampshire = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[28].name;
@@ -164,7 +165,7 @@ export const NewJersey = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[29].name;
@@ -215,7 +216,7 @@ export const NewMexico = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[30].name;
@@ -266,7 +267,7 @@ export const NewYork = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[31].name;
@@ -317,7 +318,7 @@ export const NorthCarolina = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[32].name;
@@ -368,7 +369,7 @@ export const NorthDakota = () => {
     let [statePopulation, setStatePopulation] = useState();
 
     useEffect(() => {
-        fetch("https://sampleapis.com/the-states/api/the-states")
+        fetch(URL)
             .then((response) => response.json())
             .then((data) => {
                 stateName = data[33].name;

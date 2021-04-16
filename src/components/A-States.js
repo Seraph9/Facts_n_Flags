@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 
 import Navbar from '../Navbar';
+import { baseURL as URL } from './constants';
 
 export const Alabama = props => {
   let [stateName, setStateName] = useState();
@@ -13,9 +14,10 @@ export const Alabama = props => {
   let [statePopulation, setStatePopulation] = useState();
 
   useEffect(() => {
-    fetch("https://sampleapis.com/the-states/api/the-states")
+    fetch(URL)
       .then((response) => response.json())
       .then((data) => {
+
         stateName = data[0].name;
         stateFlag = data[0].flag;
         stateCapital = data[0].capital;
@@ -65,7 +67,7 @@ export const Alaska = () => {
   let [statePopulation, setStatePopulation] = useState();
 
   useEffect(() => {
-    fetch("https://sampleapis.com/the-states/api/the-states")
+    fetch(URL)
       .then((response) => response.json())
       .then((data) => {
         stateName = data[1].name;
@@ -117,7 +119,7 @@ export const Arizona = () => {
   let [statePopulation, setStatePopulation] = useState();
 
   useEffect(() => {
-    fetch("https://sampleapis.com/the-states/api/the-states")
+    fetch(URL)
       .then((response) => response.json())
       .then((data) => {
         stateName = data[2].name;
@@ -169,7 +171,7 @@ export const Arkansas = () => {
   let [statePopulation, setStatePopulation] = useState();
 
   useEffect(() => {
-    fetch("https://sampleapis.com/the-states/api/the-states")
+    fetch(URL)
       .then((response) => response.json())
       .then((data) => {
         stateName = data[3].name;
